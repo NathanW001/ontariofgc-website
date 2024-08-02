@@ -1,38 +1,112 @@
-.App {
+:root{
+  --color-text: #000000;
+  --color-bg: #FFFFFC;
+  --color-shade: #e9dec9;
+  --color-highlight-1: #FF7F11;
+  --color-highlight-2: #FF3F00;
+}
+
+body {
+  font-family: Roboto;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: var(--color-shade);
+}
+
+.header-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.header-page-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 20px;
+}
+
+.filter-highlight{
+  filter: invert(57%) sepia(93%) saturate(2111%) hue-rotate(348deg) brightness(98%) contrast(106%);
+}
+
+.filter-bg{
+  filter:invert(100%) sepia(0%) saturate(7500%) hue-rotate(309deg) brightness(107%) contrast(102%);
+}
+
+.flex-hori{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
+  padding: 0px 10px;
+}
+
+.social-button{
+  border: none;
+  background-color: var(--color-highlight-1);
   text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 8px;
+  color: var(--color-bg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-link{
+  color: var(--color-highlight-2);
+  font-size: calc(10px + 1vmin);
+  font-weight: bolder;
+  margin: 0px 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.color-highlight-1{
+  color: var(--color-highlight-1)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.color-highlight-2{
+  color: var(--color-highlight-2)
+}
+
+.landing-splash{
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+}
+
+.title-text{
+  font-weight: bolder;
+  font-size: calc(10px + 6vmin);
+  margin: 10vmin 0px;
+}
+
+.about-box {
+  margin: auto;
+  background-color: var(--color-shade);
+  border-radius: 20px;
+  box-shadow: 10px 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  padding: 20px;
+  gap: 20px;
+}
+
+.about-text { 
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-image-wrapper {
+  padding: 20px;
+  background-color: var(--color-highlight-1);
+  border-radius: 10px;
 }
