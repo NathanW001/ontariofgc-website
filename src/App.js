@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import AboutMessage from './components/AboutMessage';
+import Organizers from './components/Organizers';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
 
           <AboutMessage/>
         </div>
-        
+        <div className='organizer-section'>
+          <Organizers/>
+        </div>
       </body>
     </div>
   );
