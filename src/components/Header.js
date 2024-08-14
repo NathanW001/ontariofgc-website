@@ -4,9 +4,9 @@ function Header() {
   return(
   <div className="header-main">
     <div className="header-page-links">
-      <a className="page-link">About</a>
-      <a className="page-link">Organizers</a>
-      <a className="page-link">Events</a>
+      <button className="page-link">About</button>
+      <button className="page-link">Organizers</button>
+      <button className="page-link">Events</button>
 
     </div>
     <div className="header-socials">

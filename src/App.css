@@ -1,7 +1,7 @@
 :root{
   --color-text: #000000;
   --color-bg: #FFFFFC;
-  --color-shade: #e9dec9;
+  --color-shade: #fcf5eb;
   --color-highlight-1: #FF7F11;
   --color-highlight-2: #FF3F00;
 }
@@ -65,11 +65,19 @@ body {
 }
 
 .page-link{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
   color: var(--color-highlight-2);
   font-size: calc(10px + 1vmin);
   font-weight: bolder;
   margin: 0px 5px;
 }
+
+
 
 .color-highlight-1{
   color: var(--color-highlight-1)
@@ -93,6 +101,8 @@ body {
   font-weight: bolder;
   font-size: calc(10px + 6vmin);
   margin: 10vmin 0px;
+  text-align: center;
+  text-shadow: 3px 3px 5px gray;
 }
 
 .about-box {
@@ -116,7 +126,7 @@ body {
 }
 
 .about-text { 
-  font-size: calc(10px + 1.5vmin);
+  font-size: calc(10px + 2vmin);
 }
 
 .about-image-wrapper {
@@ -127,7 +137,7 @@ body {
 
 .organizer-section {
   display: flex;
-  flex-direciton: row;	
+  flex-direction: row;	
   background-color: var(--color-shade);
   gap: 10%;
   justify-content: center;
@@ -141,11 +151,14 @@ body {
   box-shadow: 10px 10px;
   width: 30%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   padding: 20px;
   gap: 20px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .organizer-info-wrapper {
@@ -160,4 +173,49 @@ body {
   align-items: center;
   padding: 20px;
   gap: 20px;
+}
+
+.red-color-org {
+  color: red;
+}
+
+.blue-color-org {
+  color: blue;
+}
+
+.green-color-org {
+  color: green;
+}
+
+.organizer-wrapper {
+  width: 80%;
+  padding-bottom: 10%;
+}
+
+.org-title {
+  padding: 0;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.org-top {
+  font-size: calc(10px + 2vmin);
+  color: var(--color-highlight-2);
+  font-weight: 900;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.org-info {
+  width: 100%;
+  font-size: calc(10px + 1vmin);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
