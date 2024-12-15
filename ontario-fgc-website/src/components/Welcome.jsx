@@ -7,7 +7,7 @@ function Welcome() {
     <>
       <div className='welcome-bg'>
         <h1 className='welcome-title'>Welcome to the Ontario FGC</h1>
-        <button className='welcome-button'><img src={discord_logo} width={32} height={32}/> Join our Discord! </button>
+        <button className='welcome-button' onClick={() => {window.open('https://www.discord.gg/dy5AKKWbzm','_blank')}}><img src={discord_logo} width={32} height={32}/> Join our Discord! </button>
       </div>
     </>
   )

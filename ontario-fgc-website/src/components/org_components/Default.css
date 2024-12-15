@@ -1,0 +1,12 @@
+.organization-information-title {
+  font-size: 4vh;
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 0;
+  margin-bottom: 0.5vh;
+}
+
+.organization-information-body {
+  font-size: 2vh;
+}

@@ -1,0 +1,61 @@
+#organizations-section {
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.organizations-intro-section {
+  display: flex;
+  flex-direction: row;
+  gap: 10vw;
+}
+
+.organizations-title {
+  white-space: nowrap;
+  color: #4993E7;
+}
+
+.organizations-paragraph {
+  font-size: 2.5vh;
+}
+
+.organizations-listings {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+}
+
+.organizations-listings-buttons {
+  padding: 20px;
+  border: 3px black solid;
+  border-radius: 12px;
+  width: 32vw;
+  max-height: 50vh;
+  overflow-x: hidden;
+  scrollbar-color: #4993E7 white;
+  scrollbar-width: thin;
+}
+
+.organizations-listings-descriptions {
+  border: 3px black solid;
+  border-radius: 12px;
+  width: 55vw;
+  padding: 20px;
+}
+
+.organization-button {
+  padding: 0;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: black;
+  font-size: 2vh;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.organization-button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
