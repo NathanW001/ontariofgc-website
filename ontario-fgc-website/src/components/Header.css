@@ -1,0 +1,39 @@
+.top-bar {
+  top:0;
+  left:0;
+  right:0;
+  position:sticky;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-buttons {
+  display:flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-button {
+  padding: 0;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.nav-button:hover {
+  cursor:pointer;
+}
+
+.nav-button, .nav-spacer {
+  font-size: 2vh;
+}
+
+.navbar-title {
+  font-size: 4vh;
+  color: #4993E7;
+}
