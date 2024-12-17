@@ -45,6 +45,9 @@
   max-height: 50vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  scrollbar-color: #4993E7 white;
+  scrollbar-width: thin;
 }
 
 .organization-button {
