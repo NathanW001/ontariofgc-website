@@ -1,30 +1,30 @@
-#organizations-section {
+#events-section {
   margin-left: 4vw;
   margin-right: 4vw;
 }
 
-.organizations-intro-section {
+.events-intro-section {
   display: flex;
   flex-direction: row;
   gap: 10vw;
 }
 
-.organizations-title {
+.events-title {
   white-space: nowrap;
   color: #4993E7;
 }
 
-.organizations-paragraph {
+.events-paragraph {
   font-size: 2.5vh;
 }
 
-.organizations-listings {
+.events-listings {
   display: flex;
   flex-direction: row;
   gap: 5vw;
 }
 
-.organizations-listings-buttons {
+.events-listings-buttons {
   padding: 20px;
   border: 3px black solid;
   border-radius: 12px;
@@ -37,17 +37,14 @@
   flex-direction: column;
 }
 
-.organizations-listings-descriptions {
+.events-listings-descriptions {
   border: 3px black solid;
   border-radius: 12px;
   width: 55vw;
   padding: 20px;
-  max-height: 50vh;
-  display: flex;
-  flex-direction: column;
 }
 
-.organization-button {
+.events-button {
   padding: 0;
   border-radius: 5px;
   background-color: #FFFFFF;
@@ -60,7 +57,7 @@
   border: none;
 }
 
-.organization-button:hover {
+.events-button:hover {
   cursor: pointer;
   background-color: lightgray;
 }

@@ -10,9 +10,9 @@ function Header() {
           <p className='nav=spacer'>|</p>
           <button className='nav-button' onClick={() => {document.getElementById('organizations-section').scrollIntoView();}}>Local Organizations</button>
           <p className='nav=spacer'>|</p>
-          <button className='nav-button' onClick={() => {document.getElementById('events').scrollIntoView();}}>Upcoming Events</button>
+          <button className='nav-button' onClick={() => {document.getElementById('events-section').scrollIntoView();}}>Upcoming Events</button>
           <p className='nav=spacer'>|</p>
-          <button className='nav-button' onClick={() => {document.getElementById('contact').scrollIntoView();}}>Contact</button>
+          <button className='nav-button' onClick={() => {document.getElementById('contact-section').scrollIntoView();}}>Contact</button>
         </div>
       </div>
     </>

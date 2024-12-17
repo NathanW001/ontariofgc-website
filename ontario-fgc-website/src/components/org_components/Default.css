@@ -10,3 +10,11 @@
 .organization-information-body {
   font-size: 2vh;
 }
+
+.organization-information-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 10px;
+  margin-top: auto;
+}
