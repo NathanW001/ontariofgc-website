@@ -61,3 +61,13 @@
   cursor: pointer;
   background-color: lightgray;
 }
+
+/* LEAFLET CLASSES */
+
+.leaflet-container {
+  margin-top: 2vh;
+  border: 3px black solid;
+  border-radius: 12px;
+  width: 90.5vw;
+  height: 50vh;
+}
