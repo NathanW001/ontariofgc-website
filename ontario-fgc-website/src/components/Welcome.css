@@ -1,7 +1,7 @@
 .welcome-bg {
   background-image: url('../assets/background1.png');
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center;
   padding:8vh;
   display: flex;
@@ -33,6 +33,7 @@
   margin-bottom: 4vh;
   font-size: 6vh;
   z-index: 2;
+  text-align: center;
 }
 
 .welcome-button{
