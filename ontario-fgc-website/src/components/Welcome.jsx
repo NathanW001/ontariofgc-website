@@ -23,7 +23,6 @@ function Welcome() {
         document.getElementById('slideshow').style.backgroundImage = "url(".concat(pic_url[index]).concat(")");
         document.getElementById('slideshow').className = "welcome-bg";
       }, 250)
-      console.log(index);
     }, 5000)
   }
 
