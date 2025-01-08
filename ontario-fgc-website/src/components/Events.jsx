@@ -18,7 +18,7 @@ import Default from './event_components/Default'
 import "leaflet/dist/leaflet.css"
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet"
 
-import { useState } from 'react'
+import { useState, Fragment} from 'react'
 import { Icon } from 'leaflet'
 
 function Events() {
@@ -41,7 +41,7 @@ function Events() {
         <div className='events-intro-section'>
           <h1 className='events-title'>Events</h1>
           <div className='events-paragraph'>
-            <p>On the schedule and map below you can find upcoming events. You can click on the map to see and event, and find more information on the event.</p>
+            <p>On the schedule and map below you can find upcoming events. You can click on the map to look around, and click on an event logo to view more information.</p>
           </div>
         </div>
 
@@ -54,7 +54,7 @@ function Events() {
           </div>
           <div className='events-listings-descriptions'>
             {event_information.map((info) => (
-              currentInfo == info.id ? <Default key={info.id} name={info.name} logo={logo_convert[info.logo]} logo_2={logo_convert[info.logo_2]} type={info.type} location={info.location} location_maps_url={info.location_maps_url} description={info.description} startgg={info.startgg} /> : <></>
+              currentInfo == info.id ? <Default key={info.id} name={info.name} logo={logo_convert[info.logo]} logo_2={logo_convert[info.logo_2]} type={info.type} location={info.location} location_maps_url={info.location_maps_url} description={info.description} startgg={info.startgg} /> : <Fragment key={info.id}/>
             ))}
           </div>
         </div>

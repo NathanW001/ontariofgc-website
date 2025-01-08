@@ -13,4 +13,5 @@
 
 .youtube-button:hover {
   cursor: pointer;
+  filter: brightness(60%)
 }

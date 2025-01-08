@@ -1,5 +1,5 @@
 .welcome-bg {
-  background-image: url('../assets/background1.png');
+  /* background-image: url('../assets/background3.png'); */
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -7,6 +7,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  position: relative;
+}
+
+.welcome-bg::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  background-color: black;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.fade.welcome-bg::before{
+  opacity: 1;
 }
 
 .welcome-title {
@@ -14,6 +32,7 @@
   margin: 0;
   margin-bottom: 4vh;
   font-size: 6vh;
+  z-index: 2;
 }
 
 .welcome-button{
@@ -27,8 +46,10 @@
   gap: 10px;
   padding: 10px;
   border: 1px white solid;
+  z-index: 2;
 }
 
 .welcome-button:hover {
   cursor:pointer;
+  filter: brightness(60%)
 }

@@ -27,6 +27,7 @@
 
 .nav-button:hover {
   cursor:pointer;
+  filter: brightness(60%)
 }
 
 .nav-button, .nav-spacer {

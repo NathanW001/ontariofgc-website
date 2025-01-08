@@ -13,4 +13,5 @@
 
 .discord-button:hover {
   cursor: pointer;
+  filter: brightness(60%)
 }
