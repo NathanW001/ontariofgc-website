@@ -28,7 +28,7 @@ function Organizations() {
         <div className='organizations-intro-section'>
           <h1 className='organizations-title'>Organizations</h1>
           <div className='organizations-paragraph'>
-            <p>Listed below are some of the popular fighting game organizations and coordinators that are active in Ontario. They will be the ones to host events, so look through to find one near you.</p>
+            <p>Listed below are some of the popular fighting game organizations and coordinators that are active in Ontario. You can scroll through them and click on them to view more information! They will be the ones to host events, so look through to find one near you. </p>
           </div>
         </div>
 
