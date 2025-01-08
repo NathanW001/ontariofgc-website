@@ -45,6 +45,9 @@
   max-height: 50vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  scrollbar-color: #4993E7 white;
+  scrollbar-width: thin;
 }
 
 .events-button {
@@ -84,4 +87,31 @@
   border-radius: 12px;
   width: 90.5vw;
   height: 75vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .events-intro-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .events-listings {
+    flex-direction: column;
+  }
+
+  .events-listings-buttons {
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 83vw;
+    gap: 3vw;
+  }
+
+  .events-button {
+    white-space: nowrap;
+  }
+  
+  .events-listings-descriptions {
+    width: 83vw;
+  }
 }

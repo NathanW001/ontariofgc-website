@@ -49,10 +49,10 @@ function Events() {
           <div className='events-listings-buttons'>
             
             {event_information.map((info) => (
-              <button key={info.id} className='organization-button' onClick={() => {setCurrentInfo(info.id)}}><img src={logo_convert[info.logo]} width={32} height={32}/>{info.name}</button>
+              <button key={info.id} className='events-button' onClick={() => {setCurrentInfo(info.id)}}><img src={logo_convert[info.logo]} width={32} height={32}/>{info.name}</button>
             ))}
           </div>
-          <div className='events-listings-descriptions'>
+          <div className='events-listings-descriptions' id="event-info-scroll-point">
             {event_information.map((info) => (
               currentInfo == info.id ? <Default key={info.id} name={info.name} logo={logo_convert[info.logo]} logo_2={logo_convert[info.logo_2]} type={info.type} location={info.location} location_maps_url={info.location_maps_url} description={info.description} startgg={info.startgg} /> : <Fragment key={info.id}/>
             ))}
@@ -72,7 +72,7 @@ function Events() {
                   <h2>{marker.name}</h2>
                   <p><button className="event-info-button" onClick={() => {
                     setCurrentInfo(marker.id);
-                    document.getElementById('events-section').scrollIntoView();
+                    document.getElementById('event-info-scroll-point').scrollIntoView();
                   }}>View Event Information</button></p>
                 </Popup>
               </Marker>
