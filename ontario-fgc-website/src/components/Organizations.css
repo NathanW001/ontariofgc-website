@@ -67,3 +67,25 @@
   cursor: pointer;
   background-color: lightgray;
 }
+
+@media only screen and (max-width: 600px) {
+  .organizations-intro-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .organizations-listings {
+    flex-direction: column;
+  }
+
+  .organizations-listings-buttons {
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 83vw;
+  }
+  
+  .organizations-listings-descriptions {
+    width: 83vw;
+  }
+}
