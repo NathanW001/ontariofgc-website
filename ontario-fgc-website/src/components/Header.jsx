@@ -7,11 +7,11 @@ function Header() {
         <h1 className='navbar-title'>Ontario FGC</h1>
         <div className='nav-buttons'>
           <button className='nav-button' onClick={() => {document.getElementById('about-section').scrollIntoView();}}>About Us</button>
-          <p className='nav=spacer'>|</p>
+          <p className='nav-spacer'>|</p>
           <button className='nav-button' onClick={() => {document.getElementById('organizations-section').scrollIntoView();}}>Local Organizations</button>
-          <p className='nav=spacer'>|</p>
+          <p className='nav-spacer'>|</p>
           <button className='nav-button' onClick={() => {document.getElementById('events-section').scrollIntoView();}}>Upcoming Events</button>
-          <p className='nav=spacer'>|</p>
+          <p className='nav-spacer'>|</p>
           <button className='nav-button' onClick={() => {document.getElementById('contact-section').scrollIntoView();}}>Contact</button>
         </div>
       </div>
