@@ -68,7 +68,7 @@
     "type": "Weekly",
     "location": "2150 Burnhamthorpe Rd W, Mississauga, ON",
     "location_maps_url": "https://maps.app.goo.gl/SNWFkqkwfmLS8HQPA",
-    "description": "Just Mids is an event hosted at The Upper Hand in Mississauga. They alternates between running Guilty Gear Strive and Granblue Fantasy Versus Rising every other week.",
+    "description": "Just Mids is an event hosted at The Upper Hand in Mississauga. They alternate between running Guilty Gear Strive and Granblue Fantasy Versus Rising every other week.",
     "startgg": "https://www.start.gg/justmids"
   },
   {
@@ -130,5 +130,17 @@
     "location_maps_url": "https://maps.app.goo.gl/PCKvRqw9ZmtmuyNc9",
     "description": "Battle City is a weekly run by Battle City in Ottawa. They run mainly Street Figher 6 and Tekken 8 with some other variety games depending on the week. Please check either the Battle City Discord for the Start.gg link and more information.",
     "startgg": ""
+  },
+  {
+    "id": 11,
+    "latlong": [43.65410652518708, -79.41360911810844],
+    "name": "The Local",
+    "logo": "toronto_melee_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "12 Clinton St, Toronto, ON M6J 2N8, Canada",
+    "location_maps_url": "https://maps.app.goo.gl/Stw6hq5qLnBa6Wjz5",
+    "description": "The Local™ is the premiere melee weekly located in the heart of downtown Toronto. The venue is a great bar space with lots of good eats in the area and TTC accessible.",
+    "startgg": "https://www.start.gg/local"
   }
 ]
