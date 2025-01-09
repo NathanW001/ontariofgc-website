@@ -1,6 +1,4 @@
-# Site Submission Requirements:
-
-### For the organization:
+For the organization:
 \- name
 \- about section (if you don't want to write it I can, usually will just follow a format of "<org> is located <place>. they run <games>. " then you can throw in any more info or whatnot)
 \- logo picture (ideally transparent background)
@@ -9,7 +7,7 @@
 \- twitter link (optional)
 \- twitch channel link (optional)
 
-### For any events:
+For any events:
 \- name
 \- event type (weekly, monthly, etc)
 \- address
