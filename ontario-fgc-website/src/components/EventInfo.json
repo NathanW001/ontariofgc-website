@@ -138,9 +138,33 @@
     "logo": "toronto_melee_logo",
     "logo_2": "",
     "type": "Weekly",
-    "location": "12 Clinton St, Toronto, ON M6J 2N8, Canada",
+    "location": "12 Clinton St, Toronto, ON",
     "location_maps_url": "https://maps.app.goo.gl/Stw6hq5qLnBa6Wjz5",
     "description": "The Local™ is the premiere melee weekly located in the heart of downtown Toronto. The venue is a great bar space with lots of good eats in the area and TTC accessible.",
     "startgg": "https://www.start.gg/local"
+  },
+  {
+    "id": 12,
+    "latlong": [45.41984654184504, -75.7034751737637],
+    "name": "Perfect Storm",
+    "logo": "downtown_rumble_logo",
+    "logo_2": "battle_city_logo",
+    "type": "Regional",
+    "location": "100 Kent St, Ottawa, ON",
+    "location_maps_url": "https://maps.app.goo.gl/99EWtvst5VcmfQBUA",
+    "description": "Perfect Storm is a new seasonal FGC event, held in the heart of downtown Ottawa! The event is hosted at the Ottawa Marriot Hotel. It features games such as Street Figher 6, Tekken 8, BBCF, GBVS:R, GGXrd, GGST, MBAACC, and more! Check out the start.gg for more information.",
+    "startgg": "https://www.start.gg/perfectstorm"
+  },
+  {
+    "id": 13,
+    "latlong": [46.325949881131386, -79.4641897660427],
+    "name": "Get Louder!",
+    "logo": "north_bay_fgc_logo",
+    "logo_2": "",
+    "type": "Regional",
+    "location": "123 Delaware Ave, North Bay, ON",
+    "location_maps_url": "https://maps.app.goo.gl/3CWdWjE3AbJXzhFv9",
+    "description": "North Bay FGC's first regional event! March 15th 2025 at OutLoud North Bay! They will be offering brackets for Ultimate (Singles + Doubles), Melee (Singles + Doubles), Rivals of Aether 2, Street Fighter 6, Tekken 8 and HamSumo. More venue information can be found on the start.gg linked below. Please note that event registration will close March 7th at 11:59 pm.",
+    "startgg": "https://www.start.gg/tournament/get-louder/details"
   }
 ]

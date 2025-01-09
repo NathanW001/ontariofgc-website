@@ -9,6 +9,7 @@ import whiff_city_logo from '../assets/orgs/whiff_city_logo.png'
 import downtown_rumble_logo from '../assets/orgs/downtown_rumble_logo.png'
 import battle_city_logo from '../assets/orgs/battle_city_logo.png'
 import toronto_melee_logo from '../assets/orgs/toronto_melee_logo.png'
+import north_bay_fgc_logo from '../assets/orgs/north_bay_fgc_logo.png'
 
 import event_information from "./EventInfo.json"
 
@@ -34,7 +35,8 @@ function Events() {
     "whiff_city_logo": whiff_city_logo,
     "downtown_rumble_logo": downtown_rumble_logo,
     "battle_city_logo": battle_city_logo,
-    "toronto_melee_logo": toronto_melee_logo
+    "toronto_melee_logo": toronto_melee_logo,
+    "north_bay_fgc_logo": north_bay_fgc_logo
   }
 
   return (

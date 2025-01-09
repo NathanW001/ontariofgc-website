@@ -9,6 +9,7 @@ import whiff_city_logo from '../assets/orgs/whiff_city_logo.png'
 import downtown_rumble_logo from '../assets/orgs/downtown_rumble_logo.png'
 import battle_city_logo from '../assets/orgs/battle_city_logo.png'
 import toronto_melee_logo from '../assets/orgs/toronto_melee_logo.png'
+import north_bay_fgc_logo from '../assets/orgs/north_bay_fgc_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
@@ -19,6 +20,7 @@ import WhiffCity from './org_components/WhiffCity'
 import DowntownRumble from './org_components/DowntownRumble'
 import BattleCity from './org_components/BattleCity'
 import TorontoMelee from './org_components/TorontoMelee'
+import NorthBayFgc from './org_components/NorthBayFgc'
 
 import { useState } from 'react'
 
@@ -45,6 +47,7 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(6)}}><img src={downtown_rumble_logo} width={32} height={32}/>Downtown Rumble</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(7)}}><img src={battle_city_logo} width={32} height={32}/>Battle City</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(8)}}><img src={toronto_melee_logo} width={32} height={32}/>Toronto Melee</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(9)}}><img src={north_bay_fgc_logo} width={32} height={32}/>North Bay FGC</button>
           </div>
           <div className='organizations-listings-descriptions'>
             {currentInfo == 0 ? <Incendium/> : <></>}
@@ -56,6 +59,7 @@ function Organizations() {
             {currentInfo == 6 ? <DowntownRumble/> : <></>}
             {currentInfo == 7 ? <BattleCity/> : <></>}
             {currentInfo == 8 ? <TorontoMelee/> : <></>}
+            {currentInfo == 9 ? <NorthBayFgc/> : <></>}
           </div>
         </div>
       </div>
