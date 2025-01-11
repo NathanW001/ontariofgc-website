@@ -10,6 +10,10 @@ import downtown_rumble_logo from '../assets/orgs/downtown_rumble_logo.png'
 import battle_city_logo from '../assets/orgs/battle_city_logo.png'
 import toronto_melee_logo from '../assets/orgs/toronto_melee_logo.png'
 import north_bay_fgc_logo from '../assets/orgs/north_bay_fgc_logo.png'
+import london_ontario_fgc_logo from '../assets/orgs/london_ontario_fgc_logo.png'
+import smash_class_logo from '../assets/orgs/smash_class_logo.png'
+import windsor_fgc_logo from '../assets/orgs/windsor_fgc_logo.png'
+import uwfgc_logo from '../assets/orgs/uwfgc_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
@@ -21,6 +25,11 @@ import DowntownRumble from './org_components/DowntownRumble'
 import BattleCity from './org_components/BattleCity'
 import TorontoMelee from './org_components/TorontoMelee'
 import NorthBayFgc from './org_components/NorthBayFgc'
+import LondonOntarioFgc from './org_components/LondonOntarioFgc'
+import SmashClass from './org_components/SmashClass'
+import WindsorFgc from './org_components/WindsorFgc'
+import UwFgc from './org_components/UwFgc'
+
 
 import { useState } from 'react'
 
@@ -48,6 +57,10 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(7)}}><img src={battle_city_logo} width={32} height={32}/>Battle City</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(8)}}><img src={toronto_melee_logo} width={32} height={32}/>Toronto Melee</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(9)}}><img src={north_bay_fgc_logo} width={32} height={32}/>North Bay FGC</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(10)}}><img src={london_ontario_fgc_logo} width={32} height={32}/>London Ontario FGC</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(11)}}><img src={smash_class_logo} width={32} height={32}/>Smash Class</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(12)}}><img src={windsor_fgc_logo} width={32} height={32}/>Windsor FGC</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(13)}}><img src={uwfgc_logo} width={32} height={32}/>University of Waterloo FGC</button>
           </div>
           <div className='organizations-listings-descriptions'>
             {currentInfo == 0 ? <Incendium/> : <></>}
@@ -60,6 +73,10 @@ function Organizations() {
             {currentInfo == 7 ? <BattleCity/> : <></>}
             {currentInfo == 8 ? <TorontoMelee/> : <></>}
             {currentInfo == 9 ? <NorthBayFgc/> : <></>}
+            {currentInfo == 10 ? <LondonOntarioFgc/> : <></>}
+            {currentInfo == 11 ? <SmashClass/> : <></>}
+            {currentInfo == 12 ? <WindsorFgc/> : <></>}
+            {currentInfo == 13 ? <UwFgc/> : <></>}
           </div>
         </div>
       </div>

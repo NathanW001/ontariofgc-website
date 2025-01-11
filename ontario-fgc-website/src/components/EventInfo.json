@@ -166,5 +166,65 @@
     "location_maps_url": "https://maps.app.goo.gl/3CWdWjE3AbJXzhFv9",
     "description": "North Bay FGC's first regional event! March 15th 2025 at OutLoud North Bay! They will be offering brackets for Ultimate (Singles + Doubles), Melee (Singles + Doubles), Rivals of Aether 2, Street Fighter 6, Tekken 8 and HamSumo. More venue information can be found on the start.gg linked below. Please note that event registration will close March 7th at 11:59 pm.",
     "startgg": "https://www.start.gg/tournament/get-louder/details"
+  },
+  {
+    "id": 14,
+    "latlong": [42.98571297649727, -81.25059335610254],
+    "name": "Poacher's Arms Weekly",
+    "logo": "london_ontario_fgc_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "171 Queens Ave, London, ON",
+    "location_maps_url": "https://maps.app.goo.gl/mbfVZKZXr9raTRKi7",
+    "description": "The Poacher's Arms Weekly is an event run by the London Ontario FGC at the Poacher's Arms bar. While they meet weekly, they don't always have a bracket every week. They play a variety of different games. Tournaments are hosted on Challonge with on-site signups, so please check the London Ontario FGC Discord for more information.",
+    "startgg": ""
+  },
+  {
+    "id": 15,
+    "latlong": [43.008744278726866, -81.27617378212487],
+    "name": "Western University Weekly",
+    "logo": "london_ontario_fgc_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "1151 Richmond St, London, ON",
+    "location_maps_url": "https://maps.app.goo.gl/xGzF6h1HC3GxP8SX8",
+    "description": "The Western University Weekly is an event run by the London Ontario FGC at Western University in London. They meet in the University Community Center, room #65, although this room is subject to change under various circumstances. The event is in collaboration with WEGA, Western's gaming club, but it is open to everyone, even if you're not a member.",
+    "startgg": ""
+  },
+  {
+    "id": 16,
+    "latlong": [42.24601847702646, -83.01951843505124],
+    "name": "SMASH CLASS",
+    "logo": "smash_class_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "2000 Talbot Rd, Windsor, ON",
+    "location_maps_url": "https://maps.app.goo.gl/9EYebeE8YoYvXafw6",
+    "description": "SMASH CLASS is a weekly run by Smash Class at St. Clair College in Windsor. They meet weekly at the Nexus Open Gaming Lab in the main building of the St. Clair campus, and host games such as Tekken 8, Guilty Gear Strive, King of Fighter XV, Street Fighter 6, and more.",
+    "startgg": "https://www.start.gg/hub/smash-class/"
+  },
+  {
+    "id": 17,
+    "latlong": [42.312325261944, -83.03655138558337],
+    "name": "Boyceblue",
+    "logo": "windsor_fgc_logo",
+    "logo_2": "",
+    "type": "Monthly",
+    "location": "737 Ouellette Ave, Windsor, ON",
+    "location_maps_url": "https://maps.app.goo.gl/5JQGyo38Xz4y7mZr6",
+    "description": "Boyceblue is a monthly event hosted by the Windsor FGC. They meet monthly on Saturdays, and run tournaments each month, with a different game every month. They host practically anything fighting game related, so even if not many people play a particular game you might be interested in, you still usually can find people to play with. EVERYONE OF ALL GAMES/SKILL LEVELS ARE WELCOME! Please join the Discord for more venue information!",
+    "startgg": ""
+  },
+  {
+    "id": 18,
+    "latlong": [43.47235413031629, -80.54394049185889],
+    "name": "UWFGC Weekly Meet",
+    "logo": "uwfgc_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "200 University Ave W, Waterloo, ON",
+    "location_maps_url": "https://maps.app.goo.gl/PiH4pBwm6wEnnYRb8",
+    "description": "The UWFGC Weekly Meet is a weekly event hosted at the University of Waterloo by the UWFGC. The event is open to the public. Every week to two weeks, they host a bracket, the game depending on what attendees want. Some games they host include Street Fighter 6, Tekken 8, Guilty Gear Strive, Under Night In-Birth II, Guilty Gear Xrd, and more.",
+    "startgg": ""
   }
 ]
