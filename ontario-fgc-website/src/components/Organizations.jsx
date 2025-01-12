@@ -14,6 +14,7 @@ import london_ontario_fgc_logo from '../assets/orgs/london_ontario_fgc_logo.png'
 import smash_class_logo from '../assets/orgs/smash_class_logo.png'
 import windsor_fgc_logo from '../assets/orgs/windsor_fgc_logo.png'
 import uwfgc_logo from '../assets/orgs/uwfgc_logo.png'
+import seneca_fgc_logo from '../assets/orgs/seneca_fgc_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
@@ -29,6 +30,7 @@ import LondonOntarioFgc from './org_components/LondonOntarioFgc'
 import SmashClass from './org_components/SmashClass'
 import WindsorFgc from './org_components/WindsorFgc'
 import UwFgc from './org_components/UwFgc'
+import SenecaFgc from './org_components/SenecaFgc'
 
 
 import { useState } from 'react'
@@ -61,6 +63,7 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(11)}}><img src={smash_class_logo} width={32} height={32}/>Smash Class</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(12)}}><img src={windsor_fgc_logo} width={32} height={32}/>Windsor FGC</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(13)}}><img src={uwfgc_logo} width={32} height={32}/>University of Waterloo FGC</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(14)}}><img src={seneca_fgc_logo} width={32} height={32}/>Seneca Fighting Game Club</button>
           </div>
           <div className='organizations-listings-descriptions'>
             {currentInfo == 0 ? <Incendium/> : <></>}
@@ -77,6 +80,7 @@ function Organizations() {
             {currentInfo == 11 ? <SmashClass/> : <></>}
             {currentInfo == 12 ? <WindsorFgc/> : <></>}
             {currentInfo == 13 ? <UwFgc/> : <></>}
+            {currentInfo == 14 ? <SenecaFgc/> : <></>}
           </div>
         </div>
       </div>

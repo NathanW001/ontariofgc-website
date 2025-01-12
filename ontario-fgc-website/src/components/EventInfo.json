@@ -226,5 +226,17 @@
     "location_maps_url": "https://maps.app.goo.gl/PiH4pBwm6wEnnYRb8",
     "description": "The UWFGC Weekly Meet is a weekly event hosted at the University of Waterloo by the UWFGC. The event is open to the public. Every week to two weeks, they host a bracket, the game depending on what attendees want. Some games they host include Street Fighter 6, Tekken 8, Guilty Gear Strive, Under Night In-Birth II, Guilty Gear Xrd, and more.",
     "startgg": ""
+  },
+  {
+    "id": 19,
+    "latlong": [43.772760559499986, -79.49950016009132],
+    "name": "Secena FGC Club Meet",
+    "logo": "seneca_fgc_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "70 The Pond Rd, North York, ON",
+    "location_maps_url": "https://maps.app.goo.gl/xyvJadCweig9tT4a7",
+    "description": "The Seneca FGC club meetups are events hosted by the Seneca FGC in North York, on the Seneca@York Campus. These meetups can have casual game nights, tournaments, and other community-related activities. Please note that you do not have to be a student to attend. Please join the Seneca FGC Discord for more information on scheduling and room location.",
+    "startgg": ""
   }
 ]

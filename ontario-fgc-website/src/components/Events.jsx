@@ -14,6 +14,7 @@ import london_ontario_fgc_logo from '../assets/orgs/london_ontario_fgc_logo.png'
 import smash_class_logo from '../assets/orgs/smash_class_logo.png'
 import windsor_fgc_logo from '../assets/orgs/windsor_fgc_logo.png'
 import uwfgc_logo from '../assets/orgs/uwfgc_logo.png'
+import seneca_fgc_logo from '../assets/orgs/seneca_fgc_logo.png'
 
 import event_information from "./EventInfo.json"
 
@@ -45,6 +46,7 @@ function Events() {
     "smash_class_logo": smash_class_logo,
     "windsor_fgc_logo": windsor_fgc_logo,
     "uwfgc_logo": uwfgc_logo,
+    "seneca_fgc_logo": seneca_fgc_logo,
   }
 
   return (
