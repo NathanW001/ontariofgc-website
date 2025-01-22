@@ -36,18 +36,6 @@
     "startgg": "https://start.gg/stuncity"
   },
   {
-    "id": 3,
-    "latlong": [43.78870457848849, -79.26658076155663],
-    "name": "Gourmet Bash 3.5",
-    "logo": "no_style_logo",
-    "logo_2": "",
-    "type": "Regional",
-    "location": "4466 Sheppard Ave E, Scarborough, ON",
-    "location_maps_url": "https://maps.app.goo.gl/sXPhGAQDuPALMof39",
-    "description": "Gourmet Bash 3.5 is an event hosted by No Style Skirmish, hosted at the Gourmet Malaysia Restaurant in Scarborough. It features game titles including Melee, Guilty Gear Strive, Street Fighter 6, Tekken 8, Rivals of Aether II, Granblue Fantasy Versus Rising and Multiversus.",
-    "startgg": "https://www.start.gg/tournament/gourmet-bash-3-5/details"
-  },
-  {
     "id": 4,
     "latlong": [43.17285148624579, -79.26482154024121],
     "name": "DKM Offside",
@@ -73,7 +61,7 @@
   },
   {
     "id": 6,
-    "latlong": [43.54431161357553, -79.68283327257735],
+    "latlong": [43.5440, -79.6830],
     "name": "Plus Mids",
     "logo": "just_mids_team_logo",
     "logo_2": "",
@@ -238,5 +226,17 @@
     "location_maps_url": "https://maps.app.goo.gl/xyvJadCweig9tT4a7",
     "description": "The Seneca FGC club meetups are events hosted by the Seneca FGC in North York, on the Seneca@York Campus. These meetups can have casual game nights, tournaments, and other community-related activities. Please note that you do not have to be a student to attend. Please join the Seneca FGC Discord for more information on scheduling and room location.",
     "startgg": ""
+  },
+  {
+    "id": 20,
+    "latlong": [43.90848960264237, -78.79959021028507],
+    "name": "Crit Hit Fight Night",
+    "logo": "crit_hit_fight_night_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "1540 Durham Regional Hwy 2, Courtice, ON",
+    "location_maps_url": "https://maps.app.goo.gl/knqW7XNCwCPpu2FV9",
+    "description": "Crit Hit Fight Night is a weekly hosted in Durham at the Critical Hit Gaming Lounge. They host a Street Fighter 6 bracket with setups for various casual games available after the bracket. They have a healthy mix of players from beginners all the way to masters, and welcome anyone looking for anything from casual to high skilled competition! Please join their discord for more information.",
+    "startgg": "https://www.start.gg/hub/crit-hit-fight-night"
   }
 ]

@@ -15,6 +15,7 @@ import smash_class_logo from '../assets/orgs/smash_class_logo.png'
 import windsor_fgc_logo from '../assets/orgs/windsor_fgc_logo.png'
 import uwfgc_logo from '../assets/orgs/uwfgc_logo.png'
 import seneca_fgc_logo from '../assets/orgs/seneca_fgc_logo.png'
+import crit_hit_fight_night_logo from '../assets/orgs/crit_hit_fight_night_logo.png'
 
 import event_information from "./EventInfo.json"
 
@@ -47,6 +48,7 @@ function Events() {
     "windsor_fgc_logo": windsor_fgc_logo,
     "uwfgc_logo": uwfgc_logo,
     "seneca_fgc_logo": seneca_fgc_logo,
+    "crit_hit_fight_night_logo": crit_hit_fight_night_logo,
   }
 
   return (
