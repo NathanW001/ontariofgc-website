@@ -238,5 +238,17 @@
     "location_maps_url": "https://maps.app.goo.gl/knqW7XNCwCPpu2FV9",
     "description": "Crit Hit Fight Night is a weekly hosted in Durham at the Critical Hit Gaming Lounge. They host a Street Fighter 6 bracket with setups for various casual games available after the bracket. They have a healthy mix of players from beginners all the way to masters, and welcome anyone looking for anything from casual to high skilled competition! Please join their discord for more information.",
     "startgg": "https://www.start.gg/hub/crit-hit-fight-night"
+  },
+  {
+    "id": 21,
+    "latlong": [43.771505642311915, -79.50371345613071],
+    "name": "YUFGC Weekly Meetup",
+    "logo": "yufgc_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "15 Library Ln, North York, ON",
+    "location_maps_url": "https://maps.app.goo.gl/JbLgRMuLHzKENH4Z7",
+    "description": "The YUFGC weekly meetup is an event held weekly at York University by YUFGC. It is open to anyone, and you don't have to be a student to attend. YUFGC mostly holds casual meetups for many games (Street Fighter, Tekken, Guilty Gear, Uni2, KOF, Blazblue, etc.) and hosts monthly tournaments for players of all skill levels. Join the YUFGC Discord for more info on scheduling and room location.",
+    "startgg": ""
   }
 ]

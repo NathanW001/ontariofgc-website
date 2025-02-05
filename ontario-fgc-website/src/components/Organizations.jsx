@@ -16,6 +16,7 @@ import windsor_fgc_logo from '../assets/orgs/windsor_fgc_logo.png'
 import uwfgc_logo from '../assets/orgs/uwfgc_logo.png'
 import seneca_fgc_logo from '../assets/orgs/seneca_fgc_logo.png'
 import crit_hit_fight_night_logo from '../assets/orgs/crit_hit_fight_night_logo.png'
+import yufgc_logo from '../assets/orgs/yufgc_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
@@ -33,6 +34,7 @@ import WindsorFgc from './org_components/WindsorFgc'
 import UwFgc from './org_components/UwFgc'
 import SenecaFgc from './org_components/SenecaFgc'
 import CritHitFightNight from './org_components/CritHitFightNight'
+import YuFgc from './org_components/YuFgc'
 
 
 import { useState } from 'react'
@@ -68,6 +70,7 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(13)}}><img src={uwfgc_logo} width={32} height={32}/>University of Waterloo FGC</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(14)}}><img src={seneca_fgc_logo} width={32} height={32}/>Seneca Fighting Game Club</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(15)}}><img src={crit_hit_fight_night_logo} width={32} height={32}/>Crit Hit Fight Night</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(16)}}><img src={yufgc_logo} width={32} height={32}/>York University Fighting Game Community</button>
           </div>
           <div className='organizations-listings-descriptions'>
             {currentInfo == 0 ? <Incendium/> : <></>}
@@ -86,6 +89,7 @@ function Organizations() {
             {currentInfo == 13 ? <UwFgc/> : <></>}
             {currentInfo == 14 ? <SenecaFgc/> : <></>}
             {currentInfo == 15 ? <CritHitFightNight/> : <></>}
+            {currentInfo == 16 ? <YuFgc/> : <></>}
           </div>
         </div>
       </div>
