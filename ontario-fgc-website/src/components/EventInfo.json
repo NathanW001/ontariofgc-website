@@ -132,18 +132,6 @@
     "startgg": "https://www.start.gg/local"
   },
   {
-    "id": 12,
-    "latlong": [45.41984654184504, -75.7034751737637],
-    "name": "Perfect Storm",
-    "logo": "downtown_rumble_logo",
-    "logo_2": "battle_city_logo",
-    "type": "Regional",
-    "location": "100 Kent St, Ottawa, ON",
-    "location_maps_url": "https://maps.app.goo.gl/99EWtvst5VcmfQBUA",
-    "description": "Perfect Storm is a new seasonal FGC event, held in the heart of downtown Ottawa! The event is hosted at the Ottawa Marriot Hotel. It features games such as Street Figher 6, Tekken 8, BBCF, GBVS:R, GGXrd, GGST, MBAACC, and more! Check out the start.gg for more information.",
-    "startgg": "https://www.start.gg/perfectstorm"
-  },
-  {
     "id": 13,
     "latlong": [46.325949881131386, -79.4641897660427],
     "name": "Get Louder!",
