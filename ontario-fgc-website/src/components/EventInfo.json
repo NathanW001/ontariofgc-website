@@ -76,11 +76,11 @@
     "latlong": [44.392158772296035, -79.68840210625805],
     "name": "Whiff City",
     "logo": "whiff_city_logo",
-    "logo_2": "",
+    "logo_2": "smrt_esports_logo",
     "type": "Monthly",
     "location": "3 Mulcaster St, Barrie, ON",
     "location_maps_url": "https://maps.app.goo.gl/D3SfGCmWmzsVhYQo9",
-    "description": "Whiff City is an event run by the Barrie FGC in Barrie. It is a monthly event that is hosted in the CW Coop's restaurant. The mainstay games they host include Street Fighter 6, Tekken 8, and Guilty Gear Strive, with some variety games at different events.",
+    "description": "Whiff City is an event run by SMRT eSports in Barrie. It is a monthly event that is hosted in the CW Coop's restaurant. The mainstay games they host include Street Fighter 6, Tekken 8, and Guilty Gear Strive, with some variety games at different events.",
     "startgg": "https://www.start.gg/whiffcity"
   },
   {
@@ -130,18 +130,6 @@
     "location_maps_url": "https://maps.app.goo.gl/Stw6hq5qLnBa6Wjz5",
     "description": "The Local™ is the premiere melee weekly located in the heart of downtown Toronto. The venue is a great bar space with lots of good eats in the area and TTC accessible.",
     "startgg": "https://www.start.gg/local"
-  },
-  {
-    "id": 13,
-    "latlong": [46.325949881131386, -79.4641897660427],
-    "name": "Get Louder!",
-    "logo": "north_bay_fgc_logo",
-    "logo_2": "",
-    "type": "Regional",
-    "location": "123 Delaware Ave, North Bay, ON",
-    "location_maps_url": "https://maps.app.goo.gl/3CWdWjE3AbJXzhFv9",
-    "description": "North Bay FGC's first regional event! March 15th 2025 at OutLoud North Bay! They will be offering brackets for Ultimate (Singles + Doubles), Melee (Singles + Doubles), Rivals of Aether 2, Street Fighter 6, Tekken 8 and HamSumo. More venue information can be found on the start.gg linked below. Please note that event registration will close March 7th at 11:59 pm.",
-    "startgg": "https://www.start.gg/tournament/get-louder/details"
   },
   {
     "id": 14,

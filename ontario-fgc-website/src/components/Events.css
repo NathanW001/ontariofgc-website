@@ -32,7 +32,7 @@
   max-height: 50vh;
   overflow-x: hidden;
   scrollbar-color: #4993E7 white;
-  scrollbar-width: thin;
+  scrollbar-width: auto;
   display: flex;
   flex-direction: column;
 }
@@ -47,7 +47,7 @@
   flex-direction: column;
   overflow-x: hidden;
   scrollbar-color: #4993E7 white;
-  scrollbar-width: thin;
+  scrollbar-width: auto;
 }
 
 .events-button {

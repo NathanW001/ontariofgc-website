@@ -5,7 +5,6 @@ import toronto_top_tiers_logo from '../assets/orgs/toronto_top_tiers_logo.png'
 import no_style_logo from '../assets/orgs/no_style_logo.png'
 import dkm_network_logo from '../assets/orgs/dkm_network_logo.png'
 import just_mids_team_logo from '../assets/orgs/just_mids_team_logo.png'
-import whiff_city_logo from '../assets/orgs/whiff_city_logo.png'
 import downtown_rumble_logo from '../assets/orgs/downtown_rumble_logo.png'
 import battle_city_logo from '../assets/orgs/battle_city_logo.png'
 import toronto_melee_logo from '../assets/orgs/toronto_melee_logo.png'
@@ -17,13 +16,14 @@ import uwfgc_logo from '../assets/orgs/uwfgc_logo.png'
 import seneca_fgc_logo from '../assets/orgs/seneca_fgc_logo.png'
 import crit_hit_fight_night_logo from '../assets/orgs/crit_hit_fight_night_logo.png'
 import yufgc_logo from '../assets/orgs/yufgc_logo.png'
+import smrt_esports_logo from '../assets/orgs/smrt_esports_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
 import NoStyle from './org_components/NoStyle'
 import DkmNetwork from './org_components/DkmNetwork'
 import JustMidsTeam from './org_components/JustMidsTeam'
-import WhiffCity from './org_components/WhiffCity'
+import SMRTeSports from './org_components/SMRTeSports'
 import DowntownRumble from './org_components/DowntownRumble'
 import BattleCity from './org_components/BattleCity'
 import TorontoMelee from './org_components/TorontoMelee'
@@ -59,7 +59,7 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(2)}}><img src={no_style_logo} width={32} height={32}/>No Style</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(3)}}><img src={dkm_network_logo} width={32} height={32}/>DKM Network</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(4)}}><img src={just_mids_team_logo} width={32} height={32}/>Just Mids Team</button>
-            <button className='organization-button' onClick={() => {setCurrentInfo(5)}}><img src={whiff_city_logo} width={32} height={32}/>Whiff City</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(5)}}><img src={smrt_esports_logo} width={32} height={32}/>SMRT eSports</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(6)}}><img src={downtown_rumble_logo} width={32} height={32}/>Downtown Rumble</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(7)}}><img src={battle_city_logo} width={32} height={32}/>Battle City</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(8)}}><img src={toronto_melee_logo} width={32} height={32}/>Toronto Melee</button>
@@ -78,7 +78,7 @@ function Organizations() {
             {currentInfo == 2 ? <NoStyle/> : <></>}
             {currentInfo == 3 ? <DkmNetwork/> : <></>}
             {currentInfo == 4 ? <JustMidsTeam/> : <></>}
-            {currentInfo == 5 ? <WhiffCity/> : <></>}
+            {currentInfo == 5 ? <SMRTeSports/> : <></>}
             {currentInfo == 6 ? <DowntownRumble/> : <></>}
             {currentInfo == 7 ? <BattleCity/> : <></>}
             {currentInfo == 8 ? <TorontoMelee/> : <></>}
