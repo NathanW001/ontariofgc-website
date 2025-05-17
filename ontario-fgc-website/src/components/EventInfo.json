@@ -145,14 +145,14 @@
   },
   {
     "id": 15,
-    "latlong": [43.008744278726866, -81.27617378212487],
-    "name": "Western University Weekly",
+    "latlong": [43.0025, -81.3347],
+    "name": "Mana Pinball Friday Meetup",
     "logo": "london_ontario_fgc_logo",
     "logo_2": "",
     "type": "Weekly",
-    "location": "1151 Richmond St, London, ON",
-    "location_maps_url": "https://maps.app.goo.gl/xGzF6h1HC3GxP8SX8",
-    "description": "The Western University Weekly is an event run by the London Ontario FGC at Western University in London. They meet in the University Community Center, room #65, although this room is subject to change under various circumstances. The event is in collaboration with WEGA, Western's gaming club, but it is open to everyone, even if you're not a member.",
+    "location": "1742 Hyde Park Rd unit 3, London, ON",
+    "location_maps_url": "https://maps.app.goo.gl/WvVcqMJKahXsrvd39",
+    "description": "The Mana Pinball Friday Meetup is an event run by the London Ontario FGC at Mana Pinball in London. Join their Discord for more information!",
     "startgg": ""
   },
   {
@@ -225,6 +225,42 @@
     "location": "15 Library Ln, North York, ON",
     "location_maps_url": "https://maps.app.goo.gl/JbLgRMuLHzKENH4Z7",
     "description": "The YUFGC weekly meetup is an event held weekly at York University by YUFGC. It is open to anyone, and you don't have to be a student to attend. YUFGC mostly holds casual meetups for many games (Street Fighter, Tekken, Guilty Gear, Uni2, KOF, Blazblue, etc.) and hosts monthly tournaments for players of all skill levels. Join the YUFGC Discord for more info on scheduling and room location.",
+    "startgg": ""
+  },
+  {
+    "id": 22,
+    "latlong": [43.89922496466428, -79.43058765552833],
+    "name": "Richmond Hill Locals",
+    "logo": "rhill_local_logo",
+    "logo_2": "",
+    "type": "Bi-Weekly",
+    "location": "636 Edward Ave Unit #4, Richmond Hill, ON",
+    "location_maps_url": "https://maps.app.goo.gl/t1cYd3d1fXYUCgBf8",
+    "description": "The Richmond Hill Local is an event held at the Derpy Cards card store in Richmond Hill. Their Bi-Weekly casual meetups are free attend and play, and when they host tournaments there is an entry fee. Common games that attendees play include Street Fighter 6, GGXrd, MBAACC, COTW, and many retro games! For more information and announcements on available games, the upcoming schedule, and more, join their Discord.",
+    "startgg": ""
+  },
+  {
+    "id": 23,
+    "latlong": [43.14084531352624, -80.25956891785665],
+    "name": "Showdown Square",
+    "logo": "showdown_square_logo",
+    "logo_2": "",
+    "type": "Bi-Weekly",
+    "location": "150 Darling St, Brantford, ON",
+    "location_maps_url": "https://maps.app.goo.gl/doPCkNm2yhZ14HQEA",
+    "description": "Showdown Square is a Bi-Weekly event run every first and third Saturday of the month in Brantford. They host Guilty Gear Strive and Super Smash Bros. Ultimate. The venue space can be difficult to find, so for help check the pinned messages in the announcements channel of their Discord server.",
+    "startgg": "https://start.gg/showdownsquare"
+  },
+  {
+    "id": 24,
+    "latlong": [43.00257646189911, -81.3343695982689],
+    "name": "Forest City Fighers",
+    "logo": "london_ontario_fgc_logo",
+    "logo_2": "",
+    "type": "Monthly",
+    "location": "1742 Hyde Park Rd unit 3, London, ON N6G 0J8",
+    "location_maps_url": "https://maps.app.goo.gl/fUTfdECQTKbrhymW9",
+    "description": "Forest City Fighers is a new monthly tournament run by the London Ontario FGC at Mana Pinball. The current games they run are Fatal Fury: COTW, Guilty Gear Xrd, Tekken 8, Street Fighter 6, and BBCF, but these are subject to change. It is important to join their Discord if you intend to attend, so please check it out for more info!",
     "startgg": ""
   }
 ]

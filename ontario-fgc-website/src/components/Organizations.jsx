@@ -17,6 +17,8 @@ import seneca_fgc_logo from '../assets/orgs/seneca_fgc_logo.png'
 import crit_hit_fight_night_logo from '../assets/orgs/crit_hit_fight_night_logo.png'
 import yufgc_logo from '../assets/orgs/yufgc_logo.png'
 import smrt_esports_logo from '../assets/orgs/smrt_esports_logo.png'
+import showdown_square_logo from '../assets/orgs/showdown_square_logo.png'
+import rhill_local_logo from '../assets/orgs/rhill_local_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
@@ -35,6 +37,8 @@ import UwFgc from './org_components/UwFgc'
 import SenecaFgc from './org_components/SenecaFgc'
 import CritHitFightNight from './org_components/CritHitFightNight'
 import YuFgc from './org_components/YuFgc'
+import ShowdownSquare from './org_components/ShowdownSquare'
+import RhillLocal from './org_components/RhillLocal'
 
 
 import { useState } from 'react'
@@ -71,6 +75,8 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(14)}}><img src={seneca_fgc_logo} width={32} height={32}/>Seneca Fighting Game Club</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(15)}}><img src={crit_hit_fight_night_logo} width={32} height={32}/>Crit Hit Fight Night</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(16)}}><img src={yufgc_logo} width={32} height={32}/>York University Fighting Game Community</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(17)}}><img src={showdown_square_logo} width={32} height={32}/>Showdown Square</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(18)}}><img src={rhill_local_logo} width={32} height={32}/>Richmond Hill Locals</button>
           </div>
           <div className='organizations-listings-descriptions'>
             {currentInfo == 0 ? <Incendium/> : <></>}
@@ -90,6 +96,8 @@ function Organizations() {
             {currentInfo == 14 ? <SenecaFgc/> : <></>}
             {currentInfo == 15 ? <CritHitFightNight/> : <></>}
             {currentInfo == 16 ? <YuFgc/> : <></>}
+            {currentInfo == 17 ? <ShowdownSquare/> : <></>}
+            {currentInfo == 18 ? <RhillLocal/> : <></>}
           </div>
         </div>
       </div>

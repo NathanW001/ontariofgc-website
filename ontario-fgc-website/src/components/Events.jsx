@@ -18,6 +18,8 @@ import seneca_fgc_logo from '../assets/orgs/seneca_fgc_logo.png'
 import crit_hit_fight_night_logo from '../assets/orgs/crit_hit_fight_night_logo.png'
 import yufgc_logo from '../assets/orgs/yufgc_logo.png'
 import smrt_esports_logo from '../assets/orgs/smrt_esports_logo.png'
+import rhill_local_logo from '../assets/orgs/rhill_local_logo.png'
+import showdown_square_logo from '../assets/orgs/showdown_square_logo.png'
 
 import event_information from "./EventInfo.json"
 
@@ -26,7 +28,10 @@ import Default from './event_components/Default'
 // put the assets here
 
 import "leaflet/dist/leaflet.css"
+import "react-leaflet-markercluster/styles"
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet"
+import MarkerClusterGroup from "react-leaflet-markercluster";
+
 
 import { useState, Fragment} from 'react'
 import { Icon } from 'leaflet'
@@ -53,6 +58,8 @@ function Events() {
     "crit_hit_fight_night_logo": crit_hit_fight_night_logo,
     "yufgc_logo": yufgc_logo,
     "smrt_esports_logo": smrt_esports_logo,
+    "rhill_local_logo": rhill_local_logo,
+    "showdown_square_logo": showdown_square_logo,
   }
 
   return (
@@ -85,7 +92,7 @@ function Events() {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-
+            <MarkerClusterGroup>
             {event_information.map((marker) => (
               <Marker position={marker.latlong} icon={new Icon({iconUrl: logo_convert[marker.logo], iconSize: [50,50]})} key={marker.name}>
                 <Popup>
@@ -97,6 +104,7 @@ function Events() {
                 </Popup>
               </Marker>
             ))}
+            </MarkerClusterGroup>
           </MapContainer>
         </div>
       </div>
