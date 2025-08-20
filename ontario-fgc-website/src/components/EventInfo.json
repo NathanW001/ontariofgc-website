@@ -25,14 +25,14 @@
   },
   {
     "id": 2,
-    "latlong": [43.66483324219627, -79.46396085928639],
+    "latlong": [43.664614396377544, -79.41423709860364],
     "name": "Stun City",
     "logo": "toronto_top_tiers_logo",
     "logo_2": "",
     "type": "Weekly",
-    "location": "347 Keele St, Toronto, ON",
-    "location_maps_url": "https://maps.app.goo.gl/U9VbQkhmtWhSwoSt9",
-    "description": "Stun City is an event hosted by Toronto Top Tiers, hosted at See-Scape in downtown Toronto. The games they run are Street Fighter 6 and Tekken 8.",
+    "location": "627 Bloor St W 3rd Floor, Toronto, ON",
+    "location_maps_url": "https://maps.app.goo.gl/Csogzd5TzAVpqcKY8",
+    "description": "Stun City is an event hosted by Toronto Top Tiers, hosted at Anime Otaku Hobby in downtown Toronto. The games they run are Street Fighter 6, Fatal Fury: COTW and Tekken 8.",
     "startgg": "https://start.gg/stuncity"
   },
   {
@@ -56,7 +56,7 @@
     "type": "Weekly",
     "location": "2150 Burnhamthorpe Rd W, Mississauga, ON",
     "location_maps_url": "https://maps.app.goo.gl/SNWFkqkwfmLS8HQPA",
-    "description": "Just Mids is an event hosted at The Upper Hand in Mississauga. They alternate between running Guilty Gear Strive and Granblue Fantasy Versus Rising every other week.",
+    "description": "Just Mids is an event hosted at The Upper Hand in Mississauga. They run Guilty Gear Strive and Granblue Fantasy Versus Rising/ Fatal Fury: City of the Wolves on an alternating weekly schedule, on Thursday nights.",
     "startgg": "https://www.start.gg/justmids"
   },
   {
@@ -68,7 +68,7 @@
     "type": "Monthly (runs Quarterly)",
     "location": "2150 Burnhamthorpe Rd W, Mississauga, ON",
     "location_maps_url": "https://maps.app.goo.gl/SNWFkqkwfmLS8HQPA",
-    "description": "Plus Mids is an event hosted at The Upper Hand in Mississauga. It is a monthly-style event that runs quarterly. They host  Guilty Gear Strive and Granblue Fantasy Versus Rising.",
+    "description": "Plus Mids is an event hosted at The Upper Hand in Mississauga. It is a monthly-style event that runs quarterly, and features big brackets for Guilty Gear Strive, Granblue Fantasy Versus Rising, and Fatal Fury: City of the Wolves.",
     "startgg": "https://www.start.gg/plusmids"
   },
   {
