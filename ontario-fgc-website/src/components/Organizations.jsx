@@ -19,6 +19,7 @@ import yufgc_logo from '../assets/orgs/yufgc_logo.png'
 import smrt_esports_logo from '../assets/orgs/smrt_esports_logo.png'
 import showdown_square_logo from '../assets/orgs/showdown_square_logo.png'
 import rhill_local_logo from '../assets/orgs/rhill_local_logo.png'
+import queens_fgc_logo from '../assets/orgs/queens_fgc_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
@@ -39,9 +40,10 @@ import CritHitFightNight from './org_components/CritHitFightNight'
 import YuFgc from './org_components/YuFgc'
 import ShowdownSquare from './org_components/ShowdownSquare'
 import RhillLocal from './org_components/RhillLocal'
-
+import QueensFgc from './org_components/QueensFgc'
 
 import { useState } from 'react'
+
 
 function Organizations() {
   const [currentInfo, setCurrentInfo] = useState(0)
@@ -77,6 +79,7 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(16)}}><img src={yufgc_logo} width={32} height={32}/>York University Fighting Game Community</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(17)}}><img src={showdown_square_logo} width={32} height={32}/>Showdown Square</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(18)}}><img src={rhill_local_logo} width={32} height={32}/>Richmond Hill Locals</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(19)}}><img src={queens_fgc_logo} width={32} height={32}/>Queen's Fighting Game Club</button>
           </div>
           <div className='organizations-listings-descriptions'>
             {currentInfo == 0 ? <Incendium/> : <></>}
@@ -98,6 +101,7 @@ function Organizations() {
             {currentInfo == 16 ? <YuFgc/> : <></>}
             {currentInfo == 17 ? <ShowdownSquare/> : <></>}
             {currentInfo == 18 ? <RhillLocal/> : <></>}
+            {currentInfo == 19 ? <QueensFgc/> : <></>}
           </div>
         </div>
       </div>

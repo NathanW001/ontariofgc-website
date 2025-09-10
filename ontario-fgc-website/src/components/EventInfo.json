@@ -258,9 +258,21 @@
     "logo": "london_ontario_fgc_logo",
     "logo_2": "",
     "type": "Monthly",
-    "location": "1742 Hyde Park Rd unit 3, London, ON N6G 0J8",
+    "location": "1742 Hyde Park Rd unit 3, London, ON",
     "location_maps_url": "https://maps.app.goo.gl/fUTfdECQTKbrhymW9",
     "description": "Forest City Fighers is a new monthly tournament run by the London Ontario FGC at Mana Pinball. The current games they run are Fatal Fury: COTW, Guilty Gear Xrd, Tekken 8, Street Fighter 6, and BBCF, but these are subject to change. It is important to join their Discord if you intend to attend, so please check it out for more info!",
+    "startgg": ""
+  },
+  {
+    "id": 25,
+    "latlong": [44.22636547988827, -76.49599585387246],
+    "name": "Kingston Kerfuffle",
+    "logo": "queens_fgc_logo",
+    "logo_2": "",
+    "type": "Weekly",
+    "location": "Ellis Hall room 324, 58 University Ave, Kingston, ON",
+    "location_maps_url": "https://maps.app.goo.gl/yWzgerS1rsw1kvHQA",
+    "description": "Weekly tournaments run by the Queen's Fighting Game Club! (Non-students more then welcome to come to events) Features Smash Ultimate, Smash Melee, Street Figher 6, Guilty Gear Strive, Tekken 8, Street Fighter 3 and more! Please check out the Queen's FGC Discord found above for bracket info!",
     "startgg": ""
   }
 ]
