@@ -20,6 +20,7 @@ import smrt_esports_logo from '../assets/orgs/smrt_esports_logo.png'
 import showdown_square_logo from '../assets/orgs/showdown_square_logo.png'
 import rhill_local_logo from '../assets/orgs/rhill_local_logo.png'
 import queens_fgc_logo from '../assets/orgs/queens_fgc_logo.png'
+import peterborough_fgc_logo from '../assets/orgs/peterborough_fgc_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
@@ -41,6 +42,7 @@ import YuFgc from './org_components/YuFgc'
 import ShowdownSquare from './org_components/ShowdownSquare'
 import RhillLocal from './org_components/RhillLocal'
 import QueensFgc from './org_components/QueensFgc'
+import PeterboroughFgc from './org_components/PeterboroughFgc'
 
 import { useState } from 'react'
 
@@ -77,10 +79,12 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(14)}}><img src={seneca_fgc_logo} width={32} height={32}/>Seneca Fighting Game Club</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(15)}}><img src={crit_hit_fight_night_logo} width={32} height={32}/>Crit Hit Fight Night</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(16)}}><img src={yufgc_logo} width={32} height={32}/>York University Fighting Game Community</button>
-            <button className='organization-button' onClick={() => {setCurrentInfo(17)}}><img src={showdown_square_logo} width={32} height={32}/>Showdown Square</button>
+            {/* <button className='organization-button' onClick={() => {setCurrentInfo(17)}}><img src={showdown_square_logo} width={32} height={32}/>Showdown Square</button> */} {/* they don't run any fgs so I temp removed them from the org and event list */}
             <button className='organization-button' onClick={() => {setCurrentInfo(18)}}><img src={rhill_local_logo} width={32} height={32}/>Richmond Hill Locals</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(19)}}><img src={queens_fgc_logo} width={32} height={32}/>Queen's Fighting Game Club</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(20)}}><img src={peterborough_fgc_logo} width={32} height={32}/>Peterborough FGC</button>
           </div>
+          {/* god i really need to refactor this */}
           <div className='organizations-listings-descriptions'>
             {currentInfo == 0 ? <Incendium/> : <></>}
             {currentInfo == 1 ? <TorontoTopTiers/> : <></>}
@@ -99,9 +103,10 @@ function Organizations() {
             {currentInfo == 14 ? <SenecaFgc/> : <></>}
             {currentInfo == 15 ? <CritHitFightNight/> : <></>}
             {currentInfo == 16 ? <YuFgc/> : <></>}
-            {currentInfo == 17 ? <ShowdownSquare/> : <></>}
+            {/* {currentInfo == 17 ? <ShowdownSquare/> : <></>} */} {/* they don't run any fgs so I temp removed them from the org and event list */}
             {currentInfo == 18 ? <RhillLocal/> : <></>}
             {currentInfo == 19 ? <QueensFgc/> : <></>}
+            {currentInfo == 20 ? <PeterboroughFgc/> : <></>}
           </div>
         </div>
       </div>

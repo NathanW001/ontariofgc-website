@@ -1,0 +1,17 @@
+.bluesky-button{
+  padding: 0;
+  border-radius: 5px;
+  background-color: #0085FF;
+  color: white;
+  font-size: 2vh;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: none;
+}
+
+.bluesky-button:hover {
+  cursor: pointer;
+  filter: brightness(60%)
+}

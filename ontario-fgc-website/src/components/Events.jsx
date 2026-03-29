@@ -22,6 +22,7 @@ import rhill_local_logo from '../assets/orgs/rhill_local_logo.png'
 import showdown_square_logo from '../assets/orgs/showdown_square_logo.png'
 import plus_mids_logo from '../assets/orgs/plus_mids_logo.png'
 import queens_fgc_logo from '../assets/orgs/queens_fgc_logo.png'
+import peterborough_fgc_logo from '../assets/orgs/peterborough_fgc_logo.png'
 
 import event_information from "./EventInfo.json"
 
@@ -63,7 +64,8 @@ function Events() {
     "rhill_local_logo": rhill_local_logo,
     "showdown_square_logo": showdown_square_logo,
     "plus_mids_logo": plus_mids_logo,
-    "queens_fgc_logo": queens_fgc_logo
+    "queens_fgc_logo": queens_fgc_logo,
+    "peterborough_fgc_logo": peterborough_fgc_logo,
   }
 
   return (

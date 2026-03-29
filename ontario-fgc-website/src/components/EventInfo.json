@@ -14,14 +14,14 @@
   {
     "id": 1,
     "latlong": [43.23764459640337, -79.88803286197265],
-    "name": "In The Lab",
+    "name": "Steel City Showdown",
     "logo": "incendium_logo",
     "logo_2": "",
-    "type": "Bi-Weekly",
+    "type": "Monthly",
     "location": "135 Fennell Ave W, Hamilton, ON",
     "location_maps_url": "https://maps.app.goo.gl/dLiteTsydsZ2oH437",
-    "description": "In The Lab is an event hosted by the Mohawk Esports Collegiate Arena in partnership with Incendium Gaming. Their events run at the Digital Creativity Center within the The Joyce Center (also known as the EA wing) at Mowhawk College in Hamilton. The games they run include Street Fighter 6, Tekken 8, Guilty Gear Strive, Under Night In-Birth II, and Granblue Fantasy Versus: Rising.",
-    "startgg": "https://start.gg/inthelab"
+    "description": "Steel City Showdown is an event hosted at Mohawk College in partnership with Incendium Gaming. The games they run include Street Fighter 6, Tekken 8, Guilty Gear Strive, Under Night In-Birth II, Granblue Fantasy Versus: Rising, and more.",
+    "startgg": "https://start.gg/scshowdown"
   },
   {
     "id": 2,
@@ -56,7 +56,7 @@
     "type": "Weekly",
     "location": "2150 Burnhamthorpe Rd W, Mississauga, ON",
     "location_maps_url": "https://maps.app.goo.gl/SNWFkqkwfmLS8HQPA",
-    "description": "Just Mids is an event hosted at The Upper Hand in Mississauga. They run Guilty Gear Strive and Granblue Fantasy Versus Rising/ Fatal Fury: City of the Wolves on an alternating weekly schedule, on Thursday nights.",
+    "description": "Just Mids is an event hosted at The Upper Hand in Mississauga. They run Guilty Gear Strive and Granblue Fantasy Versus Rising on an alternating weekly schedule, on Thursday nights.",
     "startgg": "https://www.start.gg/justmids"
   },
   {
@@ -68,7 +68,7 @@
     "type": "Monthly (runs Quarterly)",
     "location": "2150 Burnhamthorpe Rd W, Mississauga, ON",
     "location_maps_url": "https://maps.app.goo.gl/SNWFkqkwfmLS8HQPA",
-    "description": "Plus Mids is an event hosted at The Upper Hand in Mississauga. It is a monthly-style event that runs quarterly, and features big brackets for Guilty Gear Strive, Granblue Fantasy Versus Rising, and Fatal Fury: City of the Wolves.",
+    "description": "Plus Mids is an event hosted at The Upper Hand in Mississauga. It is a monthly-style event that runs quarterly, and features big brackets for Guilty Gear Strive and Granblue Fantasy Versus Rising.",
     "startgg": "https://www.start.gg/plusmids"
   },
   {
@@ -240,18 +240,6 @@
     "startgg": ""
   },
   {
-    "id": 23,
-    "latlong": [43.14084531352624, -80.25956891785665],
-    "name": "Showdown Square",
-    "logo": "showdown_square_logo",
-    "logo_2": "",
-    "type": "Bi-Weekly",
-    "location": "150 Darling St, Brantford, ON",
-    "location_maps_url": "https://maps.app.goo.gl/doPCkNm2yhZ14HQEA",
-    "description": "Showdown Square is a Bi-Weekly event run every first and third Saturday of the month in Brantford. They host Guilty Gear Strive and Super Smash Bros. Ultimate. The venue space can be difficult to find, so for help check the pinned messages in the announcements channel of their Discord server.",
-    "startgg": "https://start.gg/showdownsquare"
-  },
-  {
     "id": 24,
     "latlong": [43.00257646189911, -81.3343695982689],
     "name": "Forest City Fighers",
@@ -273,6 +261,18 @@
     "location": "Ellis Hall room 324, 58 University Ave, Kingston, ON",
     "location_maps_url": "https://maps.app.goo.gl/yWzgerS1rsw1kvHQA",
     "description": "Weekly tournaments run by the Queen's Fighting Game Club! (Non-students more then welcome to come to events) Features Smash Ultimate, Smash Melee, Street Figher 6, Guilty Gear Strive, Tekken 8, Street Fighter 3 and more! Please check out the Queen's FGC Discord found above for bracket info!",
+    "startgg": ""
+  },
+  {
+    "id": 26,
+    "latlong": [44.30327039912248, -78.31955037143952],
+    "name": "Beans Beatdown",
+    "logo": "peterborough_fgc_logo",
+    "logo_2": "",
+    "type": "Monthly",
+    "location": "141 Charlotte St, Peterborough, ON",
+    "location_maps_url": "https://maps.app.goo.gl/c2fS9k3sS97deo738",
+    "description": "Beans Beatdown is an event run by Peterborough FGC, hosted by Dreams of Beans café. It runs Street Fighter 6 and Tekken 8 on alternating months with a secondary game as voted by the discord community.",
     "startgg": ""
   }
 ]
