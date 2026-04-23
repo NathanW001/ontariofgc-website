@@ -274,5 +274,17 @@
     "location_maps_url": "https://maps.app.goo.gl/c2fS9k3sS97deo738",
     "description": "Beans Beatdown is an event run by Peterborough FGC, hosted by Dreams of Beans café. It runs Street Fighter 6 and Tekken 8 on alternating months with a secondary game as voted by the discord community.",
     "startgg": ""
+  },
+  {
+    "id": 27,
+    "latlong": [43.788424443447965, -79.26670669118855],
+    "name": "Combo Trials",
+    "logo": "no_style_logo",
+    "logo_2": "",
+    "type": "Bi-Weekly",
+    "location": "4466 Sheppard Ave E #101, Scarborough",
+    "location_maps_url": "https://maps.app.goo.gl/YA54mBUtt3csQx5s5",
+    "description": "Scarborough FGC local happening biweekly on fridays mainly focused on 2XKO as the main title + 2 other games as more casual, free to enter brackets every event.",
+    "startgg": "https://start.gg/combotrials"
   }
 ]
