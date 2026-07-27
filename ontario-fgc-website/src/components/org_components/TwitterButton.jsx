@@ -4,7 +4,7 @@ import "./TwitterButton.css"
 function TwitterButton({ url }) {
   return (
     <>
-      <button className='twitter-button' onClick={() => {window.open(url,'_blank')}}><img src={twitter_logo} width={30} height={30}/></button>
+      <button className='twitter-button' onClick={() => {window.open(url,'_blank')}}><a href={url} target="_blank"><img src={twitter_logo} width={30} height={30}/></a></button>
     </>
   )
 }
