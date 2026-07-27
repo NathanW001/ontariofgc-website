@@ -286,5 +286,17 @@
     "location_maps_url": "https://maps.app.goo.gl/YA54mBUtt3csQx5s5",
     "description": "Scarborough FGC local happening biweekly on fridays mainly focused on 2XKO as the main title + 2 other games as more casual, free to enter brackets every event.",
     "startgg": "https://start.gg/combotrials"
+  },
+  {
+    "id": 28,
+    "latlong": [43.87664617247908, -79.26062063427827],
+    "name": "The Den",
+    "logo": "the_den_logo",
+    "logo_2": "",
+    "type": "Monthly (last Saturday of every month)",
+    "location": "60 Main Street Markham N #3, Markham",
+    "location_maps_url": "https://maps.app.goo.gl/pQBymVLjtgbbX3Ls9",
+    "description": "Monthly double-elim Street Fighter 6 hosted at Denthreesixty Arcade.",
+    "startgg": "https://start.gg/denmarkham"
   }
 ]

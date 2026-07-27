@@ -23,6 +23,7 @@ import showdown_square_logo from '../assets/orgs/showdown_square_logo.png'
 import plus_mids_logo from '../assets/orgs/plus_mids_logo.png'
 import queens_fgc_logo from '../assets/orgs/queens_fgc_logo.png'
 import peterborough_fgc_logo from '../assets/orgs/peterborough_fgc_logo.png'
+import the_den_logo from '../assets/orgs/the_den_logo.png'
 
 import event_information from "./EventInfo.json"
 
@@ -66,6 +67,7 @@ function Events() {
     "plus_mids_logo": plus_mids_logo,
     "queens_fgc_logo": queens_fgc_logo,
     "peterborough_fgc_logo": peterborough_fgc_logo,
+    "the_den_logo": the_den_logo
   }
 
   return (
