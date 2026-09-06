@@ -22,6 +22,7 @@ import rhill_local_logo from '../assets/orgs/rhill_local_logo.png'
 import queens_fgc_logo from '../assets/orgs/queens_fgc_logo.png'
 import peterborough_fgc_logo from '../assets/orgs/peterborough_fgc_logo.png'
 import the_den_logo from '../assets/orgs/the_den_logo.png'
+import ncf_logo from '../assets/orgs/ncf_logo.png'
 
 import Incendium from './org_components/Incendium'
 import TorontoTopTiers from './org_components/TorontoTopTiers'
@@ -45,6 +46,7 @@ import RhillLocal from './org_components/RhillLocal'
 import QueensFgc from './org_components/QueensFgc'
 import PeterboroughFgc from './org_components/PeterboroughFgc'
 import TheDen from './org_components/TheDen'
+import Ncf from './org_components/Ncf'
 
 import { useState } from 'react'
 
@@ -86,6 +88,7 @@ function Organizations() {
             <button className='organization-button' onClick={() => {setCurrentInfo(19)}}><img src={queens_fgc_logo} width={32} height={32}/>Queen's Fighting Game Club</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(20)}}><img src={peterborough_fgc_logo} width={32} height={32}/>Peterborough FGC</button>
             <button className='organization-button' onClick={() => {setCurrentInfo(21)}}><img src={the_den_logo} width={32} height={32}/>The Den</button>
+            <button className='organization-button' onClick={() => {setCurrentInfo(22)}}><img src={ncf_logo} width={32} height={32}/>Nickel City Fighters</button>
           </div>
           {/* god i really need to refactor this */}
           <div className='organizations-listings-descriptions'>
@@ -111,6 +114,7 @@ function Organizations() {
             {currentInfo == 19 ? <QueensFgc/> : <></>}
             {currentInfo == 20 ? <PeterboroughFgc/> : <></>}
             {currentInfo == 21 ? <TheDen/> : <></>}
+            {currentInfo == 22 ? <Ncf/> : <></>}
           </div>
         </div>
       </div>
